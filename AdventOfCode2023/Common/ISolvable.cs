@@ -2,6 +2,6 @@
 
 public interface ISolvable
 {
-    void partOne();
-    void partTwo();
+    void PartOne();
+    void PartTwo();
 }

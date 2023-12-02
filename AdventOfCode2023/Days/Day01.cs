@@ -21,13 +21,13 @@ public class Day01 : ISolvable
         { "nine", "n9e" }
     };
     
-    public void partOne()
+    public void PartOne()
     {
         var total = _input.Sum(CombineFirstAndLast);
         Console.Write(total);
     }
 
-    public void partTwo()
+    public void PartTwo()
     {
         var total = _input
             .Select(ReplaceWithValidNumbers)
